@@ -14,16 +14,12 @@
 	In case of MonoBehaviour scripts:
 	```
 	public class ExampleClass : MonoBehaviour {
-		private static ExampleClass instance = null;
+		private static ExampleClass Instance = null;
 
 		void Awake() {
 			ExampleClass.instance = this;
 		}
 
-		public static ExampleClass getInstance() {
-			return ExampleClass.instance;
-		}
-	}
 	```
 	In case of regular classes:
 	```

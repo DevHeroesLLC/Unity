@@ -170,7 +170,7 @@
     var color = isRunning ? "green" : "red";
 	```
 19. Comments occupy separate line before comented code, not on the same line
-20. `[Attributes]` for fields should be at the same line as fields, unless mroe than one `[Attribute]`, then each shouls have separate line and be preceded by a new line;
+20. `[Attributes]` for fields should be at the same line as fields, unless more than one `[Attribute]`, then each should have separate line and be preceded by a new line;
 	
 	```   
     [SomeAttribute] GameObject test;

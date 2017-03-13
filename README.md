@@ -247,7 +247,7 @@
 35. If you use invoke to delay a function call, maybe it's possible to use yield inside that function?
 	
 	```
-	private void something() {
+	private IENumerator something() {
 		yield return new WaitForSeconds(1)
 	}
 	```
